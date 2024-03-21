@@ -8,10 +8,8 @@ from tflite_model_maker import object_detector
 from tflite_support import metadata
 
 import tensorflow as tf
-print(tf.__version__) #version 2.9.0
+print(tf.__version__) #version 2.9.3
 
-# Set the global mixed precision policy
-tf.keras.mixed_precision.set_global_policy('mixed_float16')
 
 assert tf.__version__.startswith('2')
 
