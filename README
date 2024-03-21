@@ -1,0 +1,20 @@
+Đầu tiên phải cài đúng phiên bản python 3.9.6, Nếu đã có file requirements thì cài theo :
+
+pip install -r requirements.txt
+
+
+Chú ý 1 vài thư viện phải cài đúng phiên bản sau
+----------------
+pip install numpy==1.23.4
+--------------------
+pip3 install --upgrade tensorflow==2.8
+--------------------
+pip install protobuf==3.20.*
+---------------------------
+Nếu gặp lỗi "No module named 'resource'" thì dùng
+
+pip3 uninstall tensorflow_datasets; pip3 install tensorflow_datasets==4.9.2
+----------------------------
+Cập nhật requirements.txt mỗi khi cài đặt các thư viện mới bằng lệnh
+pip freeze > requirements.txt
+
