@@ -2,6 +2,7 @@
 
 pip install -r requirements.txt
 
+và các file ảnh để training phải định dạng JPEG
 
 Chú ý 1 vài thư viện phải cài đúng phiên bản sau
 ----------------
